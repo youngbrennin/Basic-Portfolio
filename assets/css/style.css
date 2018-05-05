@@ -1,50 +1,106 @@
-#HeadName {
-    margin: 20px;
-    margin: auto;
-    padding: 20px;
-    color: rgb(255, 255, 255);
-    
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
-    width: 50%;
-    float: left;
-}
-
-hr {
-     color: #d0daea;
-}
-
-.BackBox {
-    height: 10px;;
-    margin: 30px;
-    background: white;
-}
-
-.bar {
-    background: rgb(35, 112, 136);
-    display: inline-block;
-    width: 100%;
+body {
     margin: 0;
-    padding: 0 10px;
-    float: right;
-    color: rgb(109, 157, 161);
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-a {
-    text-decoration: none;
+.NavLook {
+   background-color: #ffffff;
+   border-bottom: 2px solid #cccccc;
+   margin: 0;
+   padding: 0;
+   font-family: 'Georgia', Times, 'Times New Roman', serif;
+   height: 100px;
 }
 
-h2 {
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-}
-
-.SectionSize {
-    margin-top: 200px;
+.HeadSize {
+    width: 1000px;
     margin: auto;
+    bottom: 0;
+    padding: 0;
+}
+
+.Name {
+    background-color: rgb(35, 112, 136);
+    width: 190px;
+    color: white;
+    padding: 20px;
+    margin-top: 0;
+}
+
+.Name2 {
+    Bottom: 0;
+    padding: 0;
+}
+
+.Links {
+    float: right;
+    padding: 20px;
+    margin-top: -67px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.About {
+    padding: 10px;
+    margin-right: 4px;
+    color: rgb(35, 112, 136);
+}
+
+.Portfolio {
+    padding: 10px;
+    border-right: 1px solid #cccccc;
+    border-left: 1px solid #cccccc;
+    color: rgb(35, 112, 136);
+}
+
+.Contact {
+    padding: 10px;
+    color: rgb(35, 112, 136);
+}
+
+a:hover {
+    background: rgb(35, 112, 136);
+    color: white;
+}
+
+.AboutMe {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: rgb(35, 112, 136);
+    border-bottom: 2px solid #cccccc;
+    padding: 20px;
+}
+
+.Wrapper {
+    margin: 0 auto;
     padding: 20px;
     width: 960px;
     background-color: white;
-    border:1px solid teal;
+    border:1px solid rgb(35, 112, 136);
+    clear: both;
+}
+
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+
+ul {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+
+.Super {
+    padding: 20px;
+}
+
+.Foot {
+    background-color: #666666;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 12px;
+    padding: 13px;
+    border-top: 4px solid rgb(35, 112, 136);
+    clear: both;
+    margin-bottom: 0;
 }
 
 .GoodSpot {
@@ -53,12 +109,36 @@ h2 {
     padding: 20px;
 }
 
-.images {
-    width: 960px
-    border:1px solid teal;
-    background-color: white;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 20px;
+.Center {
+    margin: 0 auto;
+    width: 700px;
+}
+
+.Pic1 {
+    padding: 20px;
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.PortTitles {
+    background-color: rgb(35, 112, 136);
+    padding: 20px;
+    color: white;
+    width: 160px;
+    text-align: center;
+    margin-left: 20px;
+}
+.Float1 {
+    float: left;
+}
+
+.Move {
+    margin: 0;
+    padding: 0;
+}
+.Button:hover {
+    background: rgb(35, 112, 136);
+    color: white;
 }

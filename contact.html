@@ -1,28 +1,59 @@
 <!DOCTYPE html>
 <html>
 <head>
-   
-    <title>Contact Page</title>
-   
-    <link rel="stylesheet" type="text/css"  href="stlye.css"/>
     
+    <title>Contact Page</title>
+
+<!--<link rel="stylesheet" type="text/css" href="assets/css/reset.css">-->
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
 </head>
-<body>
-   
-   <h2>
-       Brennin Young
-   </h2> 
 
-            <a href="index.html" target="_blank" class="AboutPage">About</a>
+<body background="assets/images/blu_stripes.png">
 
-            <a href="portfolio.html" target="_blank" class="PortfolioPage">Portfolio</a>
-   
-            <a href="contact.html" target="_blank" class="ContactPage">Contact</a>
+<div class="NavLook">
+<header>
+    
+    <div class="HeadSize">
+        <div class="Name2">
+            <!--@TA-PLEASE LEAVE A COMMENT ON HOW TO MOVE MY 
+                NAME SO IT IS FLUSH WITH THE BOTTOM OF THE 
+                HEADER AND IF I MOVE THE WINDOW IT ADJUSTS 
+                WITH CONTENT I FEEL LIKE I HAVE TRIED EVERYTHING, BUT 
+                APPARENTLY NOT...NOT SURE WHAT IM MMISSING :(SAD FACE-->
+        <h2 class="Name">Brennin Young</h2>
+        </div>
+        
+        <div class="Links">
+            <a href="index.html" target="_blank" class="About">About</a>
 
-    <h2 class="LooksGood">Contact</h2>
+            <a href="portfolio.html" target="_blank" class="Portfolio">Portfolio</a>
 
+            <a href="contact.html" target="_blank" class="Contact">Contact</a>
+        </div>  
+    </div>  
+</header>
+</div>
+    
+<div class="Super">
+<div class="Wrapper">
+<h2 class="AboutMe">Contact</h2>
 
+<form action="mailto:someone@example.com" method="post" enctype="text/plain">
+    Name:<br>
+    <input type="text" name="name"><br>
+    E-mail:<br>
+    <input type="text" name="mail"><br>
+    Message:<br>
+    <input type="text" name="comment" size="50"><br><br>
+    <input type="submit" value="Submit" class="Button">
+    </form>
+</div>
+</div>
+<footer class="Foot">
 
+<p>Copyright&copy;</p>
 
+</footer>
 </body>
 </html>
